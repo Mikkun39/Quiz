@@ -15,6 +15,9 @@
 		BD9BC4A2250F37A1009CD227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9BC4A0250F37A1009CD227 /* LaunchScreen.storyboard */; };
 		BD9BC4AD250F37A1009CD227 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9BC4AC250F37A1009CD227 /* QuizTests.swift */; };
 		BD9BC4B8250F37A1009CD227 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9BC4B7250F37A1009CD227 /* QuizUITests.swift */; };
+		BD9BC4C6250F37EC009CD227 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9BC4C5250F37EC009CD227 /* QuizViewController.swift */; };
+		BD9BC4C8250F3823009CD227 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9BC4C7250F3823009CD227 /* ResultViewController.swift */; };
+		BD9BC4CC250F391C009CD227 /* nba logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD9BC4CB250F391C009CD227 /* nba logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BD9BC4B3250F37A1009CD227 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9BC4B7250F37A1009CD227 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		BD9BC4B9250F37A1009CD227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9BC4C5250F37EC009CD227 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		BD9BC4C7250F3823009CD227 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		BD9BC4CB250F391C009CD227 /* nba logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nba logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		BD9BC494250F37A0009CD227 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				BD9BC4CB250F391C009CD227 /* nba logo.jpg */,
 				BD9BC495250F37A0009CD227 /* AppDelegate.swift */,
 				BD9BC497250F37A0009CD227 /* SceneDelegate.swift */,
 				BD9BC499250F37A0009CD227 /* ViewController.swift */,
@@ -106,6 +113,8 @@
 				BD9BC49E250F37A1009CD227 /* Assets.xcassets */,
 				BD9BC4A0250F37A1009CD227 /* LaunchScreen.storyboard */,
 				BD9BC4A3250F37A1009CD227 /* Info.plist */,
+				BD9BC4C5250F37EC009CD227 /* QuizViewController.swift */,
+				BD9BC4C7250F3823009CD227 /* ResultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9BC4A2250F37A1009CD227 /* LaunchScreen.storyboard in Resources */,
+				BD9BC4CC250F391C009CD227 /* nba logo.jpg in Resources */,
 				BD9BC49F250F37A1009CD227 /* Assets.xcassets in Resources */,
 				BD9BC49D250F37A0009CD227 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9BC4C8250F3823009CD227 /* ResultViewController.swift in Sources */,
 				BD9BC49A250F37A0009CD227 /* ViewController.swift in Sources */,
 				BD9BC496250F37A0009CD227 /* AppDelegate.swift in Sources */,
 				BD9BC498250F37A0009CD227 /* SceneDelegate.swift in Sources */,
+				BD9BC4C6250F37EC009CD227 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
